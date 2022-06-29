@@ -69,7 +69,7 @@ Siamese trackers have been among the state-of-the-art solutions in each Visual O
 
 ## Instructions to build and test project
 
-To run the demo of tracker on ZCU 104 platform you need the hardware_acceleration/siam_track files (the content of software_tracker is additional, so one can further extend this work, if one whishes to do so - this will be discussed at the end of this readme).
+To run the demo of tracker on ZCU 104 platform you need the hardware_acceleration/siam_track files (the content of software_tracker is additional, so one can further extend this work, if one wishes to do so - this will be discussed at the end of this readme).
 
 #### Step 1:
 Copy siam_track folder from hardware_acceleration folder to notebooks directory in your finn installation directory on host.
@@ -89,4 +89,4 @@ Brief summary of instructions from notebook:
 #### Step 3 (just for your consideration):
 If you want to test other video sequences, as pointed out in What next section of notebook, you can use the Python project to generate needed initialization parameters. You need to run demo.py script, with the chosen sequence: in the SiamTrack class definition, during initialization of the tracker, several npy files are saved. You need to use them, instead of the attached for Crossing sequence files (you will need to update the paths in Pynq driver and/or the code for option 1).
 
-The Python projects contains also the whole tracker code. It must be noted that the code for SiameseTracker is based on https://github.com/huanglianghua/siamfc-pytorch implementation.
+The Python projects contains also the whole tracker code. It must be noted that the code for Siamese Tracker is based on https://github.com/huanglianghua/siamfc-pytorch implementation.

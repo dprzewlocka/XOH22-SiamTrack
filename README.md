@@ -76,7 +76,7 @@ Copy siam_track folder from hardware_acceleration folder to notebooks directory 
 Run notebooks and open siam_track_XOH.ipynb. The siam_track/XOH directory contains all needed files.
 
 #### Step 2:
-Follow the notebook instructions to build the hardware project. You can skip the Hardware Generation section (which takes around 2h to pass) and use the generated design if you wish - all onnx models, as well as all intermediate and final hardware designs, with bitstream and PUNQ driver are to be found in generated_folding_v5.zip archive available here https://drive.google.com/file/d/1EbOCyJM5uoeRIXz3JzMR0PK-TIK-qWGt/view?usp=sharing. But I strongly recommend to generate them yourself to avoid strange problems (although if you're fluent in FINN, or at least have SOME experience, go for it).
+Follow the notebook instructions to build the hardware project. You can skip the Hardware Generation section (which takes around 2h to pass) and use the generated design if you wish - all onnx models, as well as all intermediate and final hardware designs, with bitstream and PYNQ driver are to be found in generated_folding_v5.zip archive available here https://drive.google.com/file/d/1EbOCyJM5uoeRIXz3JzMR0PK-TIK-qWGt/view?usp=sharing. But I strongly recommend to generate them yourself to avoid strange problems (although if you're fluent in FINN, or at least have SOME experience, go for it).
 
 Brief summary of instructions from notebook:
 * run all cells before Deployment and Execution section (Hardware Generation can take some time - around an hour and a half in my case, so be patient)
